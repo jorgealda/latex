@@ -1,4 +1,4 @@
-% Copyright 2015 by Jorge Alda
+% Copyright 2015 by Jorge Alda Gallo
 % Based on work by Marco Barisione
 %
 % This file may be distributed and/or modified
@@ -8,18 +8,17 @@
 
 \mode<presentation>
 
-\DeclareOptionBeamer{alternativetitlepage}[true]{\PassOptionsToPackage{alternativetitlepage=#1}{beamerinnerthemefancy}}
-\DeclareOptionBeamer{titlepagelogo}{\PassOptionsToPackage{titlepagelogo=#1}{beamerinnerthemefancy}}
+\DeclareOptionBeamer{titlepagelogo}{\PassOptionsToPackage{titlepagelogo=#1}{beamerinnerthemefancyz}}
 \DeclareOptionBeamer{bullet}{\PassOptionsToPackage{bullet=#1}{beamerinnerthemefancy}}
-\DeclareOptionBeamer{pageofpages}{\PassOptionsToPackage{pageofpages=#1}{beamerouterthemedecolines}}
-\DeclareOptionBeamer{titleline}[true]{\PassOptionsToPackage{titleline=#1}{beamerouterthemedecolines}}
-\DeclareOptionBeamer{logowidth}{\PassOptionsToPackage{logowidth=#1}{beamerinnerthemefancy}}
-\DeclareOptionBeamer{authorwidth}{\PassOptionsToPackage{authorwidth=#1}{beamerinnerthemefancy}}
+\DeclareOptionBeamer{pageofpages}{\PassOptionsToPackage{pageofpages=#1}{beamerouterthemedecolinesz}}
+\DeclareOptionBeamer{titleline}[true]{\PassOptionsToPackage{titleline=#1}{beamerouterthemedecolinesz}}
+\DeclareOptionBeamer{logowidth}{\PassOptionsToPackage{logowidth=#1}{beamerinnerthemefancyz}}
+\DeclareOptionBeamer{authorwidth}{\PassOptionsToPackage{authorwidth=#1}{beamerinnerthemefancyz}}
 
 \ProcessOptionsBeamer
 
-\useinnertheme{fancy}
-\useoutertheme{decolines}
+\useinnertheme{fancyz}
+\useoutertheme{decolinesz}
 \usecolortheme{unizar}
 
 \setbeamertemplate{navigation symbols}{}
